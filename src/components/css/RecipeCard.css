@@ -1,0 +1,65 @@
+  
+  .card {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s ease;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  .card img{
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  .card .info{
+    max-width: 60%;
+  }
+  .card .extraInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card .cooktime{
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: darkgrey;
+  }
+  .card:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .card:active {
+    box-shadow: none;
+    transform-origin: center;
+    transform: scale(0.98);
+  }
+  .card_category {
+    display: inline-block;
+    padding: 8px 10px;
+    margin: 0 0 10px;
+    color: #FFF;
+    background-color: darkgoldenrod;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.075rem;
+    text-transform: uppercase;
+  }
+  .card_excerpt {
+    color: #666;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+  }
+  .card_title {
+    margin: 0 0 10px;
+    color: #444;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+  }
+  .card .link{
+    color: rgb(65, 126, 41);
+  }

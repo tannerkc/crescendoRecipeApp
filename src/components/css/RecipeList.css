@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    max-width: 60%;
+    justify-content: space-between;
+  }
+.column .card {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 40%;
+}
+
+
+  @media screen and (max-width: 950px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+      justify-content: center;
+    }
+    .column .card {
+        margin-top: 20px;
+        vertical-align: middle;
+        width: 80%;
+    }
+  }

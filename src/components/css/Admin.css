@@ -1,0 +1,24 @@
+.adminTasks{
+    margin-top: 60px;
+}
+.adminColumn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 80%;
+    max-width: 900px;
+    justify-content: center;
+  }
+.adminColumn .card{
+    margin-top: 20px;
+}
+.adminButtons{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+}
+.adminButtons button{
+    flex: 1;
+    cursor: pointer;
+}
